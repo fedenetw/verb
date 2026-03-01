@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammatik</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f5f5f0; padding: 20px; color: #222; }
+  h1 { text-align: center; font-size: 2em; margin-bottom: 8px; color: #2c3e50; border-bottom: 3px solid #2c3e50; padding-bottom: 8px; }
+  .prepositions { text-align: center; font-size: 1.1em; background: #eaf0fb; padding: 10px; border-radius: 6px; margin-bottom: 20px; font-style: italic; }
+  h2 { font-size: 1.3em; margin: 18px 0 8px; color: #34495e; border-left: 4px solid #3498db; padding-left: 8px; }
+  h3 { font-size: 1em; margin: 12px 0 6px; color: #555; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 16px; background: #fff; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  th { background: #3498db; color: white; padding: 8px 12px; text-align: left; font-size: 0.95em; }
+  td { padding: 7px 12px; border-bottom: 1px solid #e8e8e8; font-size: 0.92em; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .card { background: #fff; border-radius: 8px; padding: 14px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .card h3 { color: #2980b9; border-bottom: 1px solid #ddd; padding-bottom: 4px; margin-bottom: 8px; }
+  .tag { display: inline-block; background: #2ecc71; color: white; border-radius: 4px; padding: 1px 7px; font-size: 0.8em; margin-left: 6px; }
+  .tag.red { background: #e74c3c; }
+  @media(max-width:600px){ .grid { grid-template-columns: 1fr; } }
+  nav {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    padding: 12px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+    font-size: 0.95em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  nav a:hover { background: #eaf0fb; }
+  .interrogativ { border-radius: 4px;}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Verbi</a>
+  <a href="grammar.html">Grammatik</a>
+</nav>
+
+<h1>Wechselpräpositionen</h1>
+<div class="prepositions">in · an · auf · hinter · neben · unter · vor · zwischen · über</div>
+
+<!-- INTERROGATIV UND DEMONSTRATIVARTIKEL -->
+<h2>Interrogativartikel und Demonstrativartikel</h2>
+<table class="interrogativ">
+  <thead>
+    <tr><th>Artikel</th><th>Nominativ</th><th>Akkusativ</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>der</strong></td><td>welcher? Dieser</td><td>welchen? Diesen!</td></tr>
+    <tr><td><strong>das</strong></td><td>welches? Dieses!</td><td>welches? Dieses!</td></tr>
+    <tr><td><strong>die</strong></td><td>welche? Diese!</td><td>welche? Diese!</td></tr>
+  </tbody>
+</table>
+
+<!-- DATIV WO? / AKKUSATIV WOHIN? -->
+<h2>Dativ (Wo? / MMR) &amp; Akkusativ (Wohin? / NSE)</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Dativ — Wo? <span class="tag">MMR</span></h3>
+    <table>
+      <thead><tr><th>Kasus</th><th>Artikel</th><th>Beispiel</th></tr></thead>
+      <tbody>
+        <tr><td>dem</td><td>der</td><td>auf dem / an dem / in dem</td></tr>
+        <tr><td>dem</td><td>das</td><td>auf dem / an dem / in dem</td></tr>
+        <tr><td>der</td><td>die</td><td>auf der / an der / in der</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>Akkusativ — Wohin? <span class="tag red">NSE</span></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Beispiel</th></tr></thead>
+      <tbody>
+        <tr><td>den</td><td>auf den / an den / in den</td></tr>
+        <tr><td>das</td><td>auf das / an das / in das</td></tr>
+        <tr><td>die</td><td>auf die / an die / in die</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- DATIV + IN / AKKUSATIV + FÜR -->
+<div class="grid">
+  <div class="card">
+    <h3>Dativ + <em>in</em></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Form</th><th>Kontraktion</th></tr></thead>
+      <tbody>
+        <tr><td>der</td><td>in dem</td><td>→ im</td></tr>
+        <tr><td>das</td><td>in dem</td><td>→ im</td></tr>
+        <tr><td>die</td><td>in der</td><td>→ in der</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>Akkusativ + <em>für</em></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Form</th></tr></thead>
+      <tbody>
+        <tr><td>der</td><td>für den</td></tr>
+        <tr><td>das</td><td>für ein</td></tr>
+        <tr><td>die</td><td>für meine</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- DATIV + MIT / AKKUSATIV + OHNE -->
+<div class="grid">
+  <div class="card">
+    <h3>Dativ + <em>mit</em></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Form</th></tr></thead>
+      <tbody>
+        <tr><td>der</td><td>mit dem / einem</td></tr>
+        <tr><td>das</td><td>mit dem / einem</td></tr>
+        <tr><td>die</td><td>mit der / einer</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>Akkusativ + <em>ohne</em></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Form</th></tr></thead>
+      <tbody>
+        <tr><td>der</td><td>ohne den</td></tr>
+        <tr><td>das</td><td>ohne das</td></tr>
+        <tr><td>die</td><td>ohne meine</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- DATIV + ZU/BEI/AUS/VON -->
+<div class="grid">
+  <div class="card">
+    <h3>Dativ + <em>zu, bei, aus, von</em></h3>
+    <table>
+      <thead><tr><th>Artikel</th><th>Form</th></tr></thead>
+      <tbody>
+        <tr><td>der</td><td>(zu + dem) → zum</td></tr>
+        <tr><td>das</td><td>aus dem</td></tr>
+        <tr><td>die</td><td>bei der</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h3>Personalpronomen</h3>
+    <table>
+      <thead><tr><th>Nominativ</th><th>Akkusativ</th><th>Dativ</th></tr></thead>
+      <tbody>
+        <tr><td>ich</td><td>mich</td><td>mir</td></tr>
+        <tr><td>du</td><td>dich</td><td>dir</td></tr>
+        <tr><td>er/sie/es</td><td>ihn/sie/es</td><td>ihm/ihr/ihm</td></tr>
+        <tr><td>wir</td><td>uns</td><td>uns</td></tr>
+        <tr><td>ihr</td><td>euch</td><td>euch</td></tr>
+        <tr><td>sie/Sie</td><td>sie/Sie</td><td>ihnen/Ihnen</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>

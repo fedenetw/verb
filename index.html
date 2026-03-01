@@ -1,200 +1,98 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deutsch verben</title>
-    <style>
-        nav {
-            background-color: #f9f9f9;
-            border-bottom: 1px solid #ddd;
-            padding: 10px 20px;
-            margin-bottom: 20px;
-        }
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: #333;
-            font-size: 14px;
-        }
-        nav a:hover {
-            color: #0066cc;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f0f0f0;
-            font-weight: bold;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deutsch Verben</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f5f5f0; padding: 20px; color: #222; }
+
+  nav {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    padding: 12px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+    font-size: 0.95em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  nav a:hover { background: #eaf0fb; }
+
+  h1 { text-align: center; font-size: 2em; margin-bottom: 8px; color: #2c3e50; border-bottom: 3px solid #2c3e50; padding-bottom: 8px; margin-bottom: 24px; }
+  h3 { font-size: 1.2em; margin: 20px 0 8px; color: #34495e; border-left: 4px solid #3498db; padding-left: 8px; }
+
+  table { width: 100%; border-collapse: collapse; margin-bottom: 24px; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  th { background: #3498db; color: white; padding: 10px 14px; text-align: left; font-size: 0.95em; }
+  td { padding: 8px 14px; border-bottom: 1px solid #e8e8e8; font-size: 0.92em; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+
+  .hat { color: #27ae60; font-weight: 600; }
+  .ist { color: #e74c3c; font-weight: 600; }
+</style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Verbi</a>
-        <a href="grammar.html">Grammatik</a>
-    </nav>
-    <h1>Deutsche Verben</h1>
-    <h3>Verbi regolari</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Infinito</th>
-                <th>Perfekt</th>
-                <th>Significato in italiano</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>haben</td>
-                <td>hat gehabt</td>
-                <td>avere</td>
-            </tr>
-            <tr>
-                <td>machen</td>
-                <td>hat gemacht</td>
-                <td>fare</td>
-            </tr>
-                 <tr>
-                    <td>arbeiten</td>
-                    <td>hat gearbeitet</td>
-                    <td>lavorare</td>
-                </tr>
-                 <tr>
-                    <td>spielen</td>
-                    <td>hat gespielt</td>
-                    <td>giocare</td>
-                </tr>
-                 <tr>
-                    <td>lernen</td>
-                    <td>hat gelernt</td>
-                    <td>imparare</td>
-                </tr>
-                <tr>
-                    <td>tanzen</td>
-                    <td>hat getanzt</td>
-                    <td>ballare</td>
-                </tr>
-                 <tr>
-                    <td>malen</td>
-                    <td>hat gemalt</td>
-                    <td>disegnare</td>
-                </tr>
-                <tr>
-                    <td>streiten</td>
-                    <td>hat gestritten</td>
-                    <td>litigare</td>
-                </tr>
-            </tbody>
-    </table>
-    <h3>Verbi irregolari</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Infinito</th>
-                <th>Perfekt</th>
-                <th>Significato in italiano</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>bleiben</td>
-                <td>ist geblieben</td>
-                <td>restare</td>
-            </tr>
-            <tr>
-                <td>sehen</td>
-                <td>hat gesehen</td>
-                <td>vedere</td>
-            </tr>
-            <tr>
-                <td>kommen</td>
-                <td>ist gekommen</td>
-                <td>venire</td>
-            </tr>
-            <tr>
-                <td>essen</td>
-                <td>hat gegessen</td>
-                <td>mangiare</td>
-            </tr>
-            <tr>
-                <td>lesen</td>
-                <td>hat gelesen</td>
-                <td>leggere</td>
-            </tr>
-            <tr>
-                <td>fahren</td>
-                <td>ist gefahren</td>
-                <td>guidare/andare in macchina</td>
-            </tr>
-            <tr>
-                <td>fotografieren</td>
-                <td>hat fotografiert</td>
-                <td>fotografare</td>
-            </tr>
-            <tr>
-                <td>telefonieren</td>
-                <td>hat telefoniert</td>
-                <td>telefonare</td>
-            </tr>
-            <tr>
-                <td>schlafen</td>
-                <td>hat geschlafen</td>
-                <td>dormire</td>
-            </tr>
-            <tr>
-                <td>nehmen</td>
-                <td>hat genommen</td>
-                <td>prendere</td>
-            </tr>
-            <tr>
-                <td>laufen</td>
-                <td>ist gelaufen</td>
-                <td>correre</td>
-            </tr>
-            <tr>
-                <td>helfen</td>
-                <td>hat geholfen</td>
-                <td>aiutare</td>
-            </tr>
-            <tr>
-                <td>Singen</td>
-                <td>hat gesungen</td>
-                <td>cantare</td>
-            </tr>
-            <tr>
-                <td>trinken</td>
-                <td>hat getrunken</td>
-                <td>bere</td>
-            </tr>
-            <tr>
-                <td>schreiben</td>
-                <td>hat geschrieben</td>
-                <td>scrivere</td>
-            </tr>
-            <tr>
-                <td>sprechen</td>
-                <td>hat gesprochen</td>
-                <td>parlare</td>
-            </tr>
-            <tr>
-                <td>gehen</td>
-                <td>ist gegangen</td>
-                <td>andare</td>
-            </tr>
-            <tr>
-                <td>sein</td>
-                <td>ist gewesen</td>
-                <td>essere</td>
-            </tr>
-        </tbody>
-    </table>    
+
+<nav>
+  <a href="index.html">Verbi</a>
+  <a href="grammar.html">Grammatik</a>
+</nav>
+
+<h1>Deutsche Verben</h1>
+
+<h3>Verbi regolari</h3>
+<table>
+  <thead>
+    <tr><th>Infinito</th><th>Perfekt</th><th>Significato in italiano</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>haben</td><td><span class="hat">hat</span> gehabt</td><td>avere</td></tr>
+    <tr><td>machen</td><td><span class="hat">hat</span> gemacht</td><td>fare</td></tr>
+    <tr><td>arbeiten</td><td><span class="hat">hat</span> gearbeitet</td><td>lavorare</td></tr>
+    <tr><td>spielen</td><td><span class="hat">hat</span> gespielt</td><td>giocare</td></tr>
+    <tr><td>lernen</td><td><span class="hat">hat</span> gelernt</td><td>imparare</td></tr>
+    <tr><td>tanzen</td><td><span class="hat">hat</span> getanzt</td><td>ballare</td></tr>
+    <tr><td>malen</td><td><span class="hat">hat</span> gemalt</td><td>disegnare</td></tr>
+    <tr><td>streiten</td><td><span class="hat">hat</span> gestritten</td><td>litigare</td></tr>
+  </tbody>
+</table>
+
+<h3>Verbi irregolari</h3>
+<table>
+  <thead>
+    <tr><th>Infinito</th><th>Perfekt</th><th>Significato in italiano</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>bleiben</td><td><span class="ist">ist</span> geblieben</td><td>restare</td></tr>
+    <tr><td>sehen</td><td><span class="hat">hat</span> gesehen</td><td>vedere</td></tr>
+    <tr><td>kommen</td><td><span class="ist">ist</span> gekommen</td><td>venire</td></tr>
+    <tr><td>essen</td><td><span class="hat">hat</span> gegessen</td><td>mangiare</td></tr>
+    <tr><td>lesen</td><td><span class="hat">hat</span> gelesen</td><td>leggere</td></tr>
+    <tr><td>fahren</td><td><span class="ist">ist</span> gefahren</td><td>guidare / andare in macchina</td></tr>
+    <tr><td>fotografieren</td><td><span class="hat">hat</span> fotografiert</td><td>fotografare</td></tr>
+    <tr><td>telefonieren</td><td><span class="hat">hat</span> telefoniert</td><td>telefonare</td></tr>
+    <tr><td>schlafen</td><td><span class="hat">hat</span> geschlafen</td><td>dormire</td></tr>
+    <tr><td>nehmen</td><td><span class="hat">hat</span> genommen</td><td>prendere</td></tr>
+    <tr><td>laufen</td><td><span class="ist">ist</span> gelaufen</td><td>correre</td></tr>
+    <tr><td>helfen</td><td><span class="hat">hat</span> geholfen</td><td>aiutare</td></tr>
+    <tr><td>singen</td><td><span class="hat">hat</span> gesungen</td><td>cantare</td></tr>
+    <tr><td>trinken</td><td><span class="hat">hat</span> getrunken</td><td>bere</td></tr>
+    <tr><td>schreiben</td><td><span class="hat">hat</span> geschrieben</td><td>scrivere</td></tr>
+    <tr><td>sprechen</td><td><span class="hat">hat</span> gesprochen</td><td>parlare</td></tr>
+    <tr><td>gehen</td><td><span class="ist">ist</span> gegangen</td><td>andare</td></tr>
+    <tr><td>sein</td><td><span class="ist">ist</span> gewesen</td><td>essere</td></tr>
+  </tbody>
+</table>
+
 </body>
 </html>
