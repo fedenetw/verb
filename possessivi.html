@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Articoli Possessivi</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f5f5f0; padding: 20px; color: #222; }
+  
+  nav {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    padding: 12px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+    font-size: 0.95em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  nav a:hover { background: #eaf0fb; }
+
+  h1 { text-align: center; font-size: 2em; margin-bottom: 8px; color: #2c3e50; border-bottom: 3px solid #2c3e50; padding-bottom: 8px; margin-bottom: 24px; }
+  h2 { font-size: 1.3em; margin: 24px 0 12px; color: #34495e; border-left: 4px solid #3498db; padding-left: 8px; }
+  h3 { font-size: 1em; margin: 12px 0 6px; color: #555; }
+  
+  table { width: 100%; border-collapse: collapse; margin-bottom: 16px; background: #fff; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  th { background: #3498db; color: white; padding: 10px 12px; text-align: left; font-size: 0.95em; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e8e8e8; font-size: 0.92em; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  .card { background: #fff; border-radius: 8px; padding: 14px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .card h3 { color: #2980b9; border-bottom: 1px solid #ddd; padding-bottom: 4px; margin-bottom: 8px; }
+  
+  .info-box { background: #eaf0fb; border-left: 4px solid #3498db; padding: 12px; border-radius: 4px; margin-bottom: 16px; font-size: 0.95em; line-height: 1.6; }
+  .info-box strong { color: #2980b9; }
+  
+  .tag { display: inline-block; background: #2ecc71; color: white; border-radius: 4px; padding: 2px 8px; font-size: 0.8em; margin-left: 6px; font-weight: 600; }
+  .tag.blue { background: #3498db; }
+  .tag.orange { background: #e67e22; }
+  
+  @media(max-width:600px){ .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Verbi</a>
+  <a href="grammar.html">Grammatik</a>
+  <a href="possessivi.html">Possessivi</a>
+</nav>
+
+<h1>Articoli Possessivi e Casi</h1>
+
+<!-- ARTICOLI POSSESSIVI -->
+<h2>Articoli Possessivi <span class="tag">mein, dein, sein, ihr, unser, euer</span></h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>Nominativo (Chi? Cosa?)</h3>
+    <table>
+      <thead><tr><th>Pronome</th><th>Maschile (m)</th><th>Neutro (n)</th><th>Femminile (f)</th><th>Plurale</th></tr></thead>
+      <tbody>
+        <tr><td><strong>ich</strong></td><td>mein</td><td>mein</td><td>meine</td><td>meine</td></tr>
+        <tr><td><strong>du</strong></td><td>dein</td><td>dein</td><td>deine</td><td>deine</td></tr>
+        <tr><td><strong>er/es</strong></td><td>sein</td><td>sein</td><td>seine</td><td>seine</td></tr>
+        <tr><td><strong>sie</strong></td><td>ihr</td><td>ihr</td><td>ihre</td><td>ihre</td></tr>
+        <tr><td><strong>wir</strong></td><td>unser</td><td>unser</td><td>unsere</td><td>unsere</td></tr>
+        <tr><td><strong>ihr</strong></td><td>euer</td><td>euer</td><td>eure</td><td>eure</td></tr>
+        <tr><td><strong>sie/Sie</strong></td><td>ihr/Ihr</td><td>ihr/Ihr</td><td>ihre/Ihre</td><td>ihre/Ihre</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Accusativo (A chi? A che cosa?)</h3>
+    <table>
+      <thead><tr><th>Pronome</th><th>Maschile (m)</th><th>Neutro (n)</th><th>Femminile (f)</th><th>Plurale</th></tr></thead>
+      <tbody>
+        <tr><td><strong>ich</strong></td><td>meinen</td><td>mein</td><td>meine</td><td>meine</td></tr>
+        <tr><td><strong>du</strong></td><td>deinen</td><td>dein</td><td>deine</td><td>deine</td></tr>
+        <tr><td><strong>er/es</strong></td><td>seinen</td><td>sein</td><td>seine</td><td>seine</td></tr>
+        <tr><td><strong>sie</strong></td><td>ihren</td><td>ihr</td><td>ihre</td><td>ihre</td></tr>
+        <tr><td><strong>wir</strong></td><td>unseren</td><td>unser</td><td>unsere</td><td>unsere</td></tr>
+        <tr><td><strong>ihr</strong></td><td>euren</td><td>euer</td><td>eure</td><td>eure</td></tr>
+        <tr><td><strong>sie/Sie</strong></td><td>ihren/Ihren</td><td>ihr/Ihr</td><td>ihre/Ihre</td><td>ihre/Ihre</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>Dativo (A chi? A che cosa?)</h3>
+    <table>
+      <thead><tr><th>Pronome</th><th>Maschile (m)</th><th>Neutro (n)</th><th>Femminile (f)</th><th>Plurale</th></tr></thead>
+      <tbody>
+        <tr><td><strong>ich</strong></td><td>meinem</td><td>meinem</td><td>meiner</td><td>meinen</td></tr>
+        <tr><td><strong>du</strong></td><td>deinem</td><td>deinem</td><td>deiner</td><td>deinen</td></tr>
+        <tr><td><strong>er/es</strong></td><td>seinem</td><td>seinem</td><td>seiner</td><td>seinen</td></tr>
+        <tr><td><strong>sie</strong></td><td>ihrem</td><td>ihrem</td><td>ihrer</td><td>ihren</td></tr>
+        <tr><td><strong>wir</strong></td><td>unserem</td><td>unserem</td><td>unserer</td><td>unseren</td></tr>
+        <tr><td><strong>ihr</strong></td><td>eurem</td><td>eurem</td><td>eurer</td><td>euren</td></tr>
+        <tr><td><strong>sie/Sie</strong></td><td>ihrem/Ihrem</td><td>ihrem/Ihrem</td><td>ihrer/Ihrer</td><td>ihren/Ihren</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Riepilogo Casi</h3>
+    <ul style="list-style: none; padding-left: 0;">
+      <li><strong style="color: #3498db;">Nominativo:</strong> Soggetto della frase</li>
+      <li><strong style="color: #e67e22;">Accusativo:</strong> Complemento oggetto</li>
+      <li><strong style="color: #27ae60;">Dativo:</strong> Complemento indiretto</li>
+        </ul>
+    <br>
+    <p style="font-size: 0.9em; color: #666;"><strong>Ricorda:</strong> Solo il maschile singolare cambia nell'accusativo: -<strong>en</strong></p>
+  </div>
+</div>
+
+<!-- COME RICONOSCERE I CASI -->
+<h2>Come Riconoscere il Caso della Frase <span class="tag blue">Strategie</span></h2>
+
+<div class="info-box">
+  <strong>❓ Nominativo (Chi? Cosa?):</strong> Fai la domanda "Chi/Cosa fa l'azione?" oppure "Chi/Cosa è?"<br>
+  <em>Esempio: Der Mann ist alt. (Nominativo = "Der Mann")</em>
+</div>
+
+<div class="info-box">
+  <strong>❓ Accusativo (A chi? A che cosa?):</strong> Fai la domanda "Chi/Cosa riceve direttamente l'azione?" oppure "A chi/A che cosa?"<br>
+  <em>Esempio: Ich sehe den Mann. (Accusativo = "den Mann" - riceve l'azione "vedere")</em>
+</div>
+
+<div class="info-box">
+  <strong>❓ Dativo (A chi? Da chi?):</strong> Fai la domanda "A chi? Per chi? Con chi? Da chi?" oppure quando c'è una preposizione di moto da un luogo.<br>
+  <em>Esempio: Ich gebe dem Mann ein Buch. (Dativo = "dem Mann" - riceve indirettamente)</em>
+</div>
+
+<!-- PREPOSIZIONI CON ACCUSATIVO E DATIVO -->
+<h2>Preposizioni: Quale Caso Vogliono?</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>Solo Accusativo <span class="tag orange">ACC</span></h3>
+    <table>
+      <thead><tr><th>Preposizione</th><th>Significato</th><th>Esempio</th></tr></thead>
+      <tbody>
+        <tr><td><strong>für</strong></td><td>per</td><td>für meinen Bruder</td></tr>
+        <tr><td><strong>ohne</strong></td><td>senza</td><td>ohne meine Tasche</td></tr>
+        <tr><td><strong>gegen</strong></td><td>contro</td><td>gegen seinen Plan</td></tr>
+        <tr><td><strong>durch</strong></td><td>attraverso</td><td>durch mein Zimmer</td></tr>
+        <tr><td><strong>um</strong></td><td>attorno, per</td><td>um mein Haus</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Solo Dativo <span class="tag">DAT</span></h3>
+    <table>
+      <thead><tr><th>Preposizione</th><th>Significato</th><th>Esempio</th></tr></thead>
+      <tbody>
+        <tr><td><strong>mit</strong></td><td>con</td><td>mit meinem Freund</td></tr>
+        <tr><td><strong>bei</strong></td><td>presso, a casa di</td><td>bei meiner Mutter</td></tr>
+        <tr><td><strong>von</strong></td><td>da, di</td><td>von meinem Lehrer</td></tr>
+        <tr><td><strong>zu</strong></td><td>a, verso</td><td>zu meinem Onkel</td></tr>
+        <tr><td><strong>aus</strong></td><td>da, fuori da</td><td>aus meiner Tasche</td></tr>
+        <tr><td><strong>nach</strong></td><td>verso, a</td><td>nach meiner Schule</td></tr>
+        <tr><td><strong>seit</strong></td><td>da (tempo)</td><td>seit meiner Kindheit</td></tr>
+        <tr><td><strong>außer</strong></td><td>eccetto</td><td>außer meinem Bruder</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- WECHSELPRÄPOSITIONEN -->
+<h2>Wechselpräpositionen (Accusativo o Dativo)</h2>
+
+<div class="info-box">
+  <strong>Preposizioni che possono richiedere entrambi i casi:</strong> in · an · auf · vor · hinter · neben · über · unter · zwischen
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h3>Dativo (Wo?) — Stato in Luogo <span class="tag">Position</span></h3>
+    <p style="margin-bottom: 10px; font-size: 0.9em;"><strong>Domanda:</strong> <em>Dove?</em> (Non c'è movimento verso il luogo)</p>
+    <table>
+      <thead><tr><th>Preposizione</th><th>Dativo</th><th>Esempio</th></tr></thead>
+      <tbody>
+        <tr><td>in</td><td>in meinem</td><td>Sono nella mia stanza</td></tr>
+        <tr><td>an</td><td>an meinem</td><td>Al mio tavolo</td></tr>
+        <tr><td>auf</td><td>auf meinem</td><td>Sul mio letto</td></tr>
+        <tr><td>vor</td><td>vor meinem</td><td>Davanti alla mia casa</td></tr>
+        <tr><td>hinter</td><td>hinter meinem</td><td>Dietro il mio cancello</td></tr>
+        <tr><td>neben</td><td>neben meinem</td><td>Accanto al mio giardino</td></tr>
+        <tr><td>über</td><td>über meinem</td><td>Sopra il mio tetto</td></tr>
+        <tr><td>unter</td><td>unter meinem</td><td>Sotto il mio tavolo</td></tr>
+        <tr><td>zwischen</td><td>zwischen meinen</td><td>Tra i miei alberi</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Accusativo (Wohin?) — Moto in Luogo <span class="tag orange">Movement</span></h3>
+    <p style="margin-bottom: 10px; font-size: 0.9em;"><strong>Domanda:</strong> <em>Dove? Verso dove?</em> (C'è movimento verso il luogo)</p>
+    <table>
+      <thead><tr><th>Preposizione</th><th>Accusativo</th><th>Esempio</th></tr></thead>
+      <tbody>
+        <tr><td>in</td><td>in meinen</td><td>Vado nella mia stanza</td></tr>
+        <tr><td>an</td><td>an meinen</td><td>Vado al mio tavolo</td></tr>
+        <tr><td>auf</td><td>auf meinen</td><td>Salto sul mio letto</td></tr>
+        <tr><td>vor</td><td>vor meinen</td><td>Corro davanti alla mia casa</td></tr>
+        <tr><td>hinter</td><td>hinter meinen</td><td>Vado dietro il mio cancello</td></tr>
+        <tr><td>neben</td><td>neben meinen</td><td>Mi siedo accanto al mio giardino</td></tr>
+        <tr><td>über</td><td>über meinen</td><td>Salto sopra il mio tetto</td></tr>
+        <tr><td>unter</td><td>unter meinen</td><td>Striscia sotto il mio tavolo</td></tr>
+        <tr><td>zwischen</td><td>zwischen meinen</td><td>Corro tra i miei alberi</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- RIASSUNTO MOVIMENTO -->
+<h2>Riassunto: Riconoscere il Movimento <span class="tag blue">Memoria</span></h2>
+
+<div class="grid">
+  <div class="card" style="background: #eaf0fb; border-left: 4px solid #2ecc71;">
+    <h3 style="color: #27ae60;">Stato in Luogo (Dativo)</h3>
+    <p style="font-size: 0.9em; line-height: 1.7;">
+      <strong>✓ Sono qui</strong><br>
+      <strong>✓ Resto qui</strong><br>
+      <strong>✓ Sto qui (Verbi stazionari)</strong><br>
+      <strong>Domanda: Dove?</strong><br><br>
+      Verbi: stehen, sitzen, liegen, sein, bleiben
+    </p>
+  </div>
+
+  <div class="card" style="background: #fff3e0; border-left: 4px solid #e67e22;">
+    <h3 style="color: #e67e22;">Moto in Luogo (Accusativo)</h3>
+    <p style="font-size: 0.9em; line-height: 1.7;">
+      <strong>✓ Vado qui</strong><br>
+      <strong>✓ Entro qui</strong><br>
+      <strong>✓ Corro qui (Verbi di movimento)</strong><br>
+      <strong>Domanda: Dove? Verso dove?</strong><br><br>
+      Verbi: gehen, kommen, laufen, fahren, springen
+    </p>
+  </div>
+</div>
+</body>
+</html>
